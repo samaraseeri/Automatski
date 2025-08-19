@@ -15,4 +15,5 @@ That’s the hybrid framework: classical (Picard + Chebyshev residuals) + quantu
  
 ✅ So to be precise:
 •	Pure-quantum code = pure annealer solver (one-shot QUBO).
+
 •	The Hybrid-quantum = hybrid Picard + annealer loop (full nonlinear solver).
