@@ -1,7 +1,9 @@
 The pure-quantum code above is a bare quantum annealer call.
 
 •	It takes a QUBO dictionary, sends it to the annealer (or simulated annealer/tabu search endpoint), and gives you back a bitstring + objective value.
+
 •	There is no nonlinear update loop, no Chebyshev residual evaluation, no boundary-condition handling.
+
 •	So it solves one static QUBO, not a nonlinear boundary value problem.
  
 The hybrid Picard + annealer code would:
